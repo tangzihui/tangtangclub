@@ -31,16 +31,18 @@ hostname=app.bilibili.com, grpc.biliapi.net,*.biliapi.net,app.bilibili.com,api.b
 
 
 var modifiedHeaders = $request['headers'];
-modifiedHeaders['Cookie'] = '';
-modifiedHeaders['x-bili-device-bin'] = '';
-modifiedHeaders['Authorization'] = '';
-modifiedHeaders['User-Agent'] = '';
-modifiedHeaders['buvid'] = '';
-modifiedHeaders['x-bili-metadata-bin'] = '';
-modifiedHeaders['x-bili-locale-bin'] = '';
-modifiedHeaders['x-bili-network-bin'] = '';
-modifiedHeaders['x-bili-fawkes-req-bin'] = '';
-modifiedHeaders['x-bili-trace-id'] = '';
-modifiedHeaders['x-bili-exps-bin'] = '';
-modifiedHeaders['x-bili-network-bin'] = '';
+modifiedHeaders['Cookie'] = 'DedeUserID=85460502; DedeUserID__ckMd5=52f7592da80f09ae; SESSDATA=983246f9%2C1693576872%2C25793732; bili_jct=62905420bbd9a6b8a2bf295b3318e192; sid=f3llqp7y';
+modifiedHeaders['x-bili-device-bin'] = 'CAEQxLekIhokWUU0MEEwRTVGMDE1Q0YwODRBQzhCNjU1RDYwNTc4OUEzMjcyIgZpcGhvbmUqA2lvczIFcGhvbmU6BWFwcGxlQgVBcHBsZUoRaVBob25lIDE0IFBybyBNYXhSBDE2LjNqBjcuMTkuMHJAOTE3MzBGMzI4QTQ0ODlFQkUxNkYzRTRBQkI5MThFNUMyMDIwMDgwOTE3MTA0NzlEQTU3NzU2RkFGNkI3MjkzM3jSypGc6jA=';
+modifiedHeaders['Authorization'] = 'identify_v1 6c9d3faf9d5800bb20e7dd2074182132';
+modifiedHeaders['User-Agent'] = 'bili-universal/71900100 os/ios model/iPhone 14 Pro Max mobi_app/iphone osVer/16.3 network/1';
+modifiedHeaders['buvid'] = 'YE40A0E5F015CF084AC8B655D605789A3272';
+modifiedHeaders['x-bili-metadata-bin'] = 'CiA2YzlkM2ZhZjlkNTgwMGJiMjBlN2RkMjA3NDE4MjEzMhIGaXBob25lGgVwaG9uZSDEt6QiKgVhcHBsZTIkWUU0MEEwRTVGMDE1Q0YwODRBQzhCNjU1RDYwNTc4OUEzMjcyOgNpb3M=
+Accept: application/grpc';
+modifiedHeaders['x-bili-locale-bin'] = 'Eg4KAnpoEgRIYW5zGgJVUw==
+grpc-encoding: gzip';
+modifiedHeaders['x-bili-network-bin'] = 'CAIaBnVuaWNvbQ==';
+modifiedHeaders['x-bili-fawkes-req-bin'] = 'CgZpcGhvbmUSBHByb2QaCGY3MjMxM2Q3';
+modifiedHeaders['x-bili-trace-id'] = 'de1f364477ed528b1c533e0ee96404a7:1c533e0ee96404a7:0:0';
+modifiedHeaders['x-bili-exps-bin'] = 'CgIIAQ==';
+modifiedHeaders['x-bili-network-bin'] = 'AIaBnVuaWNvbQ==';
 $done({'headers': modifiedHeaders});
