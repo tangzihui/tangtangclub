@@ -30,5 +30,5 @@ modifiedHeaders['x-bili-network-bin'] = 'CAIaBnVuaWNvbQ==';
 modifiedHeaders['x-bili-fawkes-req-bin'] = 'CgZpcGhvbmUSBHByb2QaCGY3MjMxM2Q3';
 modifiedHeaders['x-bili-trace-id'] = 'de1f364477ed528b1c533e0ee96404a7:1c533e0ee96404a7:0:0';
 modifiedHeaders['x-bili-exps-bin'] = 'CgIIAQ==';
-modifiedHeaders['x-bili-network-bin'] = 'AIaBnVuaWNvbQ==';
+modifiedHeaders['x-bili-network-bin'] = 'CAIaBnVuaWNvbQ==';
 $done({'headers': modifiedHeaders});
