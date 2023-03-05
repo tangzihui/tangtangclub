@@ -31,7 +31,7 @@ hostname=app.bilibili.com, grpc.biliapi.net,*.biliapi.net,app.bilibili.com,api.b
 
 
 var modifiedHeaders = $request['headers'];
-modifiedHeaders['Cookie'] = 'DedeUserID=85460502; DedeUserID__ckMd5=52f7592da80f09ae; SESSDATA=983246f9%2C1693576872%2C25793732; bili_jct=62905420bbd9a6b8a2bf295b3318e192; sid=f3llqp7y';
+modifiedHeaders['Cookie'] = 'DedeUserID=85460502';
 modifiedHeaders['x-bili-device-bin'] = 'CAEQxLekIhokWUU0MEEwRTVGMDE1Q0YwODRBQzhCNjU1RDYwNTc4OUEzMjcyIgZpcGhvbmUqA2lvczIFcGhvbmU6BWFwcGxlQgVBcHBsZUoRaVBob25lIDE0IFBybyBNYXhSBDE2LjNqBjcuMTkuMHJAOTE3MzBGMzI4QTQ0ODlFQkUxNkYzRTRBQkI5MThFNUMyMDIwMDgwOTE3MTA0NzlEQTU3NzU2RkFGNkI3MjkzM3jSypGc6jA=';
 modifiedHeaders['Authorization'] = 'identify_v1 6c9d3faf9d5800bb20e7dd2074182132';
 modifiedHeaders['User-Agent'] = 'bili-universal/71900100 os/ios model/iPhone 14 Pro Max mobi_app/iphone osVer/16.3 network/1';
