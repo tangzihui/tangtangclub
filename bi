@@ -36,9 +36,8 @@ modifiedHeaders['x-bili-device-bin'] = 'CAEQxLekIhokWUU0MEEwRTVGMDE1Q0YwODRBQzhC
 modifiedHeaders['Authorization'] = 'identify_v1 6c9d3faf9d5800bb20e7dd2074182132';
 modifiedHeaders['User-Agent'] = 'bili-universal/71900100 os/ios model/iPhone 14 Pro Max mobi_app/iphone osVer/16.3 network/1';
 modifiedHeaders['buvid'] = 'YE40A0E5F015CF084AC8B655D605789A3272';
-modifiedHeaders['x-bili-metadata-bin'] = 'CiA2YzlkM2ZhZjlkNTgwMGJiMjBlN2RkMjA3NDE4MjEzMhIGaXBob25lGgVwaG9uZSDEt6QiKgVhcHBsZTIkWUU0MEEwRTVGMDE1Q0YwODRBQzhCNjU1RDYwNTc4OUEzMjcyOgNpb3M=;
-modifiedHeaders['x-bili-locale-bin'] = 'Eg4KAnpoEgRIYW5zGgJVUw==
-grpc-encoding: gzip';
+modifiedHeaders['x-bili-metadata-bin'] = 'CiA2YzlkM2ZhZjlkNTgwMGJiMjBlN2RkMjA3NDE4MjEzMhIGaXBob25lGgVwaG9uZSDEt6QiKgVhcHBsZTIkWUU0MEEwRTVGMDE1Q0YwODRBQzhCNjU1RDYwNTc4OUEzMjcyOgNpb3M=';
+modifiedHeaders['x-bili-locale-bin'] = 'Eg4KAnpoEgRIYW5zGgJVUw==';
 modifiedHeaders['x-bili-network-bin'] = 'CAIaBnVuaWNvbQ==';
 modifiedHeaders['x-bili-fawkes-req-bin'] = 'CgZpcGhvbmUSBHByb2QaCGY3MjMxM2Q3';
 modifiedHeaders['x-bili-trace-id'] = 'de1f364477ed528b1c533e0ee96404a7:1c533e0ee96404a7:0:0';
